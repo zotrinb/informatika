@@ -1,0 +1,39 @@
+.hero{
+
+    &__title{
+
+        span{
+            color: #1749B3;
+        }
+    }
+
+    &__subscribes{
+        justify-content: center;
+        align-items: stretch;
+       
+    }
+
+    &__subscribe{
+        display: flex;
+        flex-direction: column;
+
+        .price{
+            margin-top: auto;
+        }
+    }
+}
+
+.possibilities{
+
+    &__pos{
+        flex: 0 1 263px;
+
+        
+         li::before{
+            top: 0;
+            transform: translateY(0);
+            left: -15%;
+        }
+    }
+    
+}

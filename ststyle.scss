@@ -1,0 +1,92 @@
+.hero {
+    &__subscribes {
+        align-items: stretch;
+    }
+
+    &__subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        span {
+            color: #1749B3;
+        }
+    }
+}
+
+.possibilities {
+    &__pos {
+        flex: 0 1 263px;
+    }
+}
+
+.price {
+    margin-top: auto;
+}
+
+.cardpay__info {
+    justify-content: space-between;
+
+}
+
+.form__input {
+    flex: 0 1 240px;
+}
+
+.header__button {
+    width: 100%;
+}
+
+.signing {
+
+    p {
+
+        &::before,
+        &::after {
+            content: none;
+        }
+    }
+}
+
+.purchase__imgs {
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.purchase__img {
+    flex: 0 1 240px;
+    background: #000;
+    padding: 13px 0;
+    border-radius: 4px;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+.crypto__payment {
+
+    h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #171717;
+        margin: 15px 0;
+    }
+
+    .form__input {
+
+        h2 {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 130%;
+            letter-spacing: 0.01em;
+            color: #333333;
+        }
+    }
+}
+

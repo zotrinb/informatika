@@ -1,0 +1,85 @@
+.hero__subscribes {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.hero__subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.hero__title span {
+  color: #1749B3;
+}
+
+.possibilities__pos {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 263px;
+          flex: 0 1 263px;
+}
+
+.price {
+  margin-top: auto;
+}
+
+.cardpay__info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 240px;
+          flex: 0 1 240px;
+}
+
+.header__button {
+  width: 100%;
+}
+
+.signing p::before, .signing p::after {
+  content: none;
+}
+
+.purchase__imgs {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0;
+}
+
+.purchase__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 240px;
+          flex: 0 1 240px;
+  background: #000;
+  padding: 13px 0;
+  border-radius: 4px;
+}
+.purchase__img img {
+  display: block;
+  margin: 0 auto;
+}
+
+.crypto__payment h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #171717;
+  margin: 15px 0;
+}
+.crypto__payment .form__input h2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
